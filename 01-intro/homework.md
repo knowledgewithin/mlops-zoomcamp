@@ -15,7 +15,7 @@ Note that you need "For-Hire Vehicle Trip Records", not "High Volume For-Hire Ve
 Read the data for January. How many records are there?
 
 * 1054112
-* 1154112
+* 1154112 !!
 * 1254112
 * 1354112
 
@@ -27,7 +27,7 @@ Now let's compute the `duration` variable. It should contain the duration of a r
 What's the average trip duration in January?
 
 * 15.16
-* 19.16
+* 19.16 !!
 * 24.16
 * 29.16
 
@@ -38,6 +38,8 @@ Check the distribution of the duration variable. There are some outliers.
 Let's remove them and keep only the records where the duration was between 1 and 60 minutes (inclusive).
 
 How many records did you drop? 
+
+44286
 
 ## Q3. Missing values
 
@@ -50,7 +52,7 @@ What's the fractions of missing values for the pickup location ID? I.e. fraction
 * 53%
 * 63%
 * 73%
-* 83%
+* 83% !!
 
 ## Q4. One-hot encoding
 
@@ -62,7 +64,7 @@ Let's apply one-hot encoding to the pickup and dropoff location IDs. We'll use o
 
 What's the dimensionality of this matrix? (The number of columns).
 
-* 2
+* 2 !!
 * 152
 * 352
 * 525
@@ -78,7 +80,7 @@ Now let's use the feature matrix from the previous step to train a model.
 What's the RMSE on train?
 
 * 5.52
-* 10.52
+* 10.52 !!
 * 15.52
 * 20.52
 
@@ -90,7 +92,7 @@ Now let's apply this model to the validation dataset (Feb 2021).
 What's the RMSE on validation?
 
 * 6.01
-* 11.01
+* 11.01 !!
 * 16.01
 * 21.01
 
